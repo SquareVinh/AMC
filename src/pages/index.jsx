@@ -1,6 +1,14 @@
+export { default as Login } from "./Login";
 export { default as Center } from "./Center";
 export { default as Kanban } from "./Kanban";
 export { default as Courses } from "./Courses";
+export { default as Levels } from "./Levels";
+export { default as CoursesChild } from "./CoursesChild";
+export { default as Class } from "./Class";
+export { default as ListLecturer } from "./ListLecturer";
+export { default as ListLecturerbyClass } from "./ListLecturerbyClass";
+export { default as ListStudent } from "./ListStudent";
+export { default as ListStudentbyClass } from "./ListStudentbyClass";
 export { default as Students } from "./Students";
 export { default as Attendance } from "./Attendance";
 export { default as Lecturers } from "./Lecturers";
