@@ -1,4 +1,4 @@
-export { default as Login } from "./Login";
+// export { default as Login } from "../Login";
 export { default as Center } from "./Center";
 export { default as Kanban } from "./Kanban";
 export { default as Courses } from "./Courses";

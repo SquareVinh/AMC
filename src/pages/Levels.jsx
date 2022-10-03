@@ -24,7 +24,7 @@ const Levels = () => {
   const [apiLevelData, setApiLevelData] = useState([]);
   const [levelID, setLevelID] = useState("");
   const [levelName, setLevelName] = useState("");
-  const [levelDiscrible, setLevelDescrible] = useState("");
+  const [levelDiscrible, setLevelDescrible] = useState(" ");
 
   function handleChangeLevelId(event) {
     setLevelID(event.target.value);
@@ -37,9 +37,13 @@ const Levels = () => {
   }
   const handleSearch = (event) => {
     //event.preventDefault();
-    axios.get(`https://localhost:7009/api/Levels/${levelID}`).then((res) => {
-      console.log(res.data);
-    });
+    axios
+      .get(
+        `https://localhost:7009/api/Levels/${levelID}/${levelName}/${levelDiscrible}`
+      )
+      .then((res) => {
+        console.log(res.data);
+      });
   };
 
   const getApi0 = async () => {
