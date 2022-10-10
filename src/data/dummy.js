@@ -2845,13 +2845,32 @@ export const ordersData = [
   },
 ];
 
+export const scheduleData2 = [
+  {
+    id: 1,
+    maClass: "E83 13",
+    phong: "Space Center USA",
+    batDau: "2021-01-10T04:00:00.000",
+    ketThuc: "2021-01-10T05:30:00.000",
+    CategoryColor: "#1aaa55",
+  },
+  {
+    id: 2,
+    maClass: "T7bY wn",
+    phong: "Newyork City",
+    batDau: "2021-01-11T06:30:00.000",
+    ketThuc: "2021-01-11T08:30:00.000",
+    CategoryColor: "#357cd2",
+  },
+];
+
 export const scheduleData = [
   {
     Id: 1,
     Subject: "Explosion of Betelgeuse Star",
     Location: "Space Center USA",
-    StartTime: "2021-01-10T04:00:00.000Z",
-    EndTime: "2021-01-10T05:30:00.000Z",
+    StartTime: "2021-01-10T04:00:00.000",
+    EndTime: "2021-01-10T05:30:00.000",
     CategoryColor: "#1aaa55",
   },
   {
@@ -3010,8 +3029,8 @@ export const scheduleData = [
     Id: 21,
     Subject: "Alien Civilization",
     Location: "Space Center USA",
-    StartTime: "2021-01-10T08:30:00.000Z",
-    EndTime: "2021-01-10T10:30:00.000Z",
+    StartTime: "2021-01-10T13:30:00.000",
+    EndTime: "2021-01-10T15:30:00.000",
     CategoryColor: "#ea7a57",
   },
   {
